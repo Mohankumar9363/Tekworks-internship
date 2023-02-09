@@ -1,0 +1,49 @@
+// restaurant management
+start
+step 1: customer arrival
+step 2: Receiving customer and wishing them
+step 3: check reservation
+step 4: if (customer has reservation)
+			{
+				take customer to that table
+            }
+         else
+			{
+				check available tables 
+             if (table is available)
+               take customer to that table
+				else request customer to wait for some time
+            }
+step 5: waiter introduces menu which contains food items with prices
+        read input from customer
+        if (items are available)
+          waiter take order from customer
+        else
+          waiter says "sorry sir this item is not available"
+step 6: customer give certain specifications to waiter on preparing food
+        waiter will note the specifications and covey to chef
+        if (chef receive the order and instructions)
+           chef will start preparing the order according to the instructions
+step 7: if (chef prepared the food )
+           waiter will serve the food 
+           first waiter serve some starters
+                if (customer completes eating starters)
+                    waiter will next serve "main course"
+                 if (customer completes eatind main course")
+                     waiter asks customer "any other order's sir"
+                     if (customer orders other items)
+                       {
+                        waiter will take that order and serve
+                        }
+                       else waiter will finally serve some "deserts"
+step 8: if (customer completed having deserts)
+            waiter provide's the bill
+        if (customer give the bill along with tip)
+         {
+           waiter pay the bill and take the tip
+         }
+         else waiter pay the bill only
+         }
+ step 9: waiter says "thanks for comming"
+step 10: cleaner cleans the table
+         

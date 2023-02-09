@@ -1,0 +1,18 @@
+Begin
+steo 1: read n
+step 2: k=1;
+step 3: while (k>=1)
+        {
+		  Display vale k;
+          k=k-1;
+        }
+stop
+
+
+
+Begin
+steo 1: read n
+step 2: for(k=n;k>=1;k=k-1)
+		  Display vale k;
+      
+stop

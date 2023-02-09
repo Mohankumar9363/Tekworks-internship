@@ -1,0 +1,8 @@
+//Algorithm to find area of circle
+
+start
+step 1: read radius
+step 2: take pi=3.14
+step 3: area = pi*radius*radius;
+step 4: display area;
+stop

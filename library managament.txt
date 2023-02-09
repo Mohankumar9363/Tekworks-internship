@@ -1,0 +1,33 @@
+//Library management
+
+start
+step1 : read s_name,s_roll, s_ID
+step2 : if (s_name,s_roll, s_ID are valid)
+          {
+          enter book name;
+          enter book author;
+          enter date;
+          user can take the book;
+          }
+         else
+           {
+           display "person is invalid"
+           }
+step3: if (student wants to return book)
+        {
+         check book name, book author,validity;
+        if (return date is greater then 3 days)
+         {
+         student should pay fine
+         }
+         else accept the book
+step 4: if(student wants to renewal the book)
+          {
+         check book name, book author,validity;
+        if (renewal date is greater then 3 days)
+         {
+         student should pay fine
+         }
+         else renewal the book
+
+step 5:Display "thank you" 

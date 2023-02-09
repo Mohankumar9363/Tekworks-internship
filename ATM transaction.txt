@@ -1,0 +1,65 @@
+//Algorithm for ATM transaction
+
+start
+step 1:Dispaly "Welcome to MyBankATM"
+step 2:Display"Please insert your card"
+step 3:Read the card which was inserted from the user
+step 4:Display"please wait Your card is reading"
+step 5:Display"please do not remove your card until the transaction complete"
+step 6: if card is valid
+          {
+             Display "Select the language" english,telugu,hindi
+             read input lang
+             change the language as per users choice
+             Display "cash withdraw","cash deposit","balance enquiry"
+             if (input is "cash withdraw")
+             {
+               read amount;
+               
+               if ((amount % 100==0 or amount % 200==0 or amount % 500==0) and amount<=total amount)
+               {
+                Display "Enter pin"
+                 read pin
+                if (pin is valid)
+                {
+                 Display "collect your cash"
+             
+                 Display "Transaction Successful"
+                 Display "remove your card " 
+             }}
+             else Display"enter the Amount which are multiples of 100,200,500 and within the range of total amount"
+             }
+step 7: else if (input is "cash deposit")
+           {
+          read amount;
+           {
+            if (amount % 100==0 or amount % 200==0 or amount % 500==0)
+            {
+             Display "Enter pin"
+             read pin
+             if (pin is valid)
+             {
+             Display "deposit  your cash"
+             Display "Transaction Successful" 
+             Display "remove your card "
+             }
+             else Display"enter the Amount which are multiples of 100,200,500"
+             }
+step 8:else if (input is "balance enquiry")
+			{
+                Display "Enter your pin number"
+              read pin number
+              if (pin is valid)
+             {
+              Display "Available Balance"
+              }
+               else "pin is invalid"
+              }
+step 9: else 
+           {
+           "card is invalid"
+            }
+step 10: Display "thank you for using MyBankATM"
+ 
+
+        
