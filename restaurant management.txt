@@ -1,0 +1,91 @@
+// restaurant management
+start
+
+// online services
+
+step1: enter the website from the browser
+step2: display"welcome to MyRestaurant"
+step3: display"login using  userid and pswrd"
+step4:read the login details from the user
+step5:if(login details are matched)
+       {
+        
+        Display "search by restaurant" , "search by food"
+        read input from user
+         if(search by restaurant == 1)
+           {
+            display"please choose the restaurant"
+             1.Dolphins restaurant
+             2.Harika Royal restaurant
+             3.Paradise
+            }
+             else  if(search by food == 1)
+                {
+                  display"please choose the food "
+                   1.chicken biryani    
+                   2.chicken wings      
+                   3.veg fried rice   
+                }
+                 read choice from user
+                   if(order is taken)
+                      {
+                        display" total amount to be paid is ... "
+                       
+                       } 
+       }
+       else 
+          {
+           display "please sign up with your e-mail and passowrd"
+          }
+
+
+// offline services
+
+
+step 1: customer arrival
+step 2: Receiving customer and wishing them
+step 3: check reservation
+step 4: if (customer has reservation)
+			{
+				take customer to that table
+            }
+         else
+			{
+				check available tables 
+             if (table is available)
+               take customer to that table
+				else request customer to wait for some time
+            }
+step 5: waiter introduces menu which contains food items with prices
+        read input from customer
+        if (items are available)
+          waiter take order from customer
+        else
+          waiter says "sorry sir this item is not available"
+step 6: customer give certain specifications to waiter on preparing food
+        waiter will note the specifications and covey to chef
+        if (chef receive the order and instructions)
+           chef will start preparing the order according to the instructions
+step 7: if (chef prepared the food )
+           waiter will serve the food 
+           first waiter serve some starters
+                if (customer completes eating starters)
+                    waiter will next serve "main course"
+                 if (customer completes eatind main course")
+                     waiter asks customer "any other order's sir"
+                     if (customer orders other items)
+                       {
+                        waiter will take that order and serve
+                        }
+                       else waiter will finally serve some "deserts"
+step 8: if (customer completed having deserts)
+            waiter provide's the bill
+        if (customer give the bill along with tip)
+         {
+           waiter pay the bill and take the tip
+         }
+         else waiter pay the bill only
+         }
+ step 9: waiter says "thanks for comming"
+step 10: cleaner cleans the table
+         
