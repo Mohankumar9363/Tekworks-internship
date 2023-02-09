@@ -1,0 +1,12 @@
+Begin
+step 1: Read x,y
+step 2: if (y%2==0)
+		{
+		  if(x%y==0)
+ 			print("divisible by even number")
+		  else
+			print( "not divisible by even number")
+         }
+        else 
+			print("divisor is not a even number")
+end

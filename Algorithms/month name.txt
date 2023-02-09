@@ -1,0 +1,31 @@
+// Write algorithm to dispaly month name if month number given
+
+START 
+
+step1: Read Month_num
+step2: if (Month_no==1)
+      step2.1: Display "Jan"
+step3: if (Month_num==2)
+      step3.1: Display "Feb"
+step4: if (Month_num==3)
+      step4.1: Display "Mar"
+step5: if (Month_num==4)
+      step5.1: Display "Apr"
+step6: if (Month_num==5)
+      step6.1: Display "May"
+step7: if (Month_num==6)
+      step7.1: Display "June"
+step8: if (Month_num==7)
+      step8.1: Display "July"
+step9: if (Month_num==8)
+      step9.1: Display "Aug"
+step10: if (Month_num==9)
+      step10.1: Display "Sep"
+step11: if (Month_num==10)
+      step11.1: Display "Oct"
+step12: if (Month_num==11)
+      step12.1: Display "Nov"
+step13: if (Month_num==12)
+      step13.1: Display "Dec"
+
+END

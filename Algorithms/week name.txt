@@ -1,0 +1,20 @@
+START 
+
+step1: Read week_num
+step2: if (week_num==1)
+      step2.1: Display "sunday"
+step3: if (week_num==2)
+      step3.1: Display "Monday"
+step4: if (week_num==3)
+      step4.1: Display "Tuesday"
+step5: if (week_num==4)
+      step5.1: Display ""wednesday
+step6: if (week_num==5)
+      step6.1: Display "Thursday"
+step7: if (week_num==6)
+      step7.1: Display "Friday"
+step8: if (week_num==7)
+      step8.1: Display "Saturday"
+
+
+END

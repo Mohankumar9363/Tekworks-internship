@@ -1,0 +1,10 @@
+start
+step 1:read a,b,c
+step 2:if (a>10)
+		a=a+100;
+	   else if (b== 5)
+         c=c+a;
+       else if(c>a)
+         b=a+b;
+step 3: Display a,b,c
+end

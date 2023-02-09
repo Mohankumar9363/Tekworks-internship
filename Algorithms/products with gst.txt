@@ -1,0 +1,10 @@
+Begin/start
+step 1: Read prod1,prod2,prod3,prod4
+step 2: sum= prod1+prod2+prod3+prod4
+step 3: if (sum<500)
+        step 3.1: Total_price=sum+((10*sum)/100)
+step 4: if (sum>500 and sum<1000)
+        step 4.1: Total_price=sum+((20*sum)/100)
+step 3: if (sum>1000)
+        step 3.1: Total_price=sum+((30*sum)/100)
+stop/end

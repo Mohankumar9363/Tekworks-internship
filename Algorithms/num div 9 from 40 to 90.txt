@@ -1,0 +1,11 @@
+Begin
+step 1:m=40,s=0
+step 2:while(m<=90)
+		{
+		  if (m%9==0)
+            {
+			s=s+m;
+             m=m+1;
+             }
+step 3: Display s
+end

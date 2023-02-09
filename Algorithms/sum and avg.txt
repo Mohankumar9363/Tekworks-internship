@@ -1,0 +1,8 @@
+Begin/start
+step 1: Read n1,n2,n3
+step 2: sum=n1+n2+n3
+step 3: avg=sum/3
+step 4: Display sum
+step 5: Display avg
+
+stop/end

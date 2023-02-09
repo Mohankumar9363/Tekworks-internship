@@ -1,0 +1,9 @@
+start
+step 1: read x,s=1,n=0
+step 2: while (s<=x)
+        {
+         n=((x*x)\s)+n;
+	     s=s+1;
+         }
+step 3: display n
+End

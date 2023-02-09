@@ -1,0 +1,9 @@
+// Write the algorithm to find simple interst using PTR/100
+
+START
+
+step1: Read the values of P,T,R
+step2: Simple_interst = (p*t*r)/100
+step3: Dispaly Simple_interst
+
+END

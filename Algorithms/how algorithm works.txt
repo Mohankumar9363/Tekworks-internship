@@ -1,0 +1,17 @@
+ 
+Begin
+Step 1: read x,y,z;
+Step 2: if(x==100)
+print("x divisible by 10")
+else
+if(y%3==0)
+print("y divisible by 3");
+if(z%5==0)
+print("z divisible by 5");
+End
+  Check how algorithm works for values 
+  
+  x=10,y-34,z=21  // blank
+  x=56, y=89, z=119 // blank
+  x=0,y=-3,z=-5 // y is divisible by 3 , z divisible by 5
+  x=-12 y=30 z=-4 // y is divisible by 3 

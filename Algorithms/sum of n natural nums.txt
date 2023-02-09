@@ -1,0 +1,8 @@
+Begin
+step 1: s=0,i=1,read n
+step 2: while(i<=n)
+		{
+		  s=s+i;
+		   i=i+1;
+step 3: Display s
+end

@@ -1,0 +1,18 @@
+start
+step1: read n,x=0,evens=0,odds=0
+step2: while(n!=0)
+           {
+              x=n%10
+             if(x%2==0):
+                 {
+                     evens=evens*10+x
+               }
+             else
+             {
+                 odds =odds*10+x
+            
+               }
+       }      
+step3:display evens
+step4:display odds
+stop

@@ -1,0 +1,4 @@
+Begin/start
+step 1: Read any two numbers say n1,n2
+step 2: sum=n1+n2
+stop/end
