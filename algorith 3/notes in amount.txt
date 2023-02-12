@@ -1,0 +1,19 @@
+start
+step1: read amount
+step2: if(amount>=500)
+             note1 =amount/500
+              amount =amount-note1*500
+step3: if(amount>=100)
+              note2=amount/100
+               amount= amount - note2*100
+step4:  if(amount>=50)
+              note3=amount/50
+              amount= amount - note3*50
+step5:  if(amount>=10)
+              note4=amount/10
+              amount= amount - note4*10
+step6: total_notes=note1+note2+note3+note4
+step7: display total_notes
+stop
+              
+            

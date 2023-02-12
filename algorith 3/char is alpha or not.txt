@@ -1,0 +1,8 @@
+start
+step1:read char
+step2: if( char>='A' && char<='Z')
+             display" char is an alphabet"
+      else
+              display" char is not alphabet"
+          
+ stop

@@ -1,0 +1,19 @@
+start
+srep1: read  phy,ch,bi,maths,comp ;
+step2: avg = (phy+ch+bi+maths+comp)/5
+step3: if(avg>=90)
+              display " grade 'A'"
+       else if (avg>=80 && avg<=90 )
+              display "grade 'B' "
+       else if(per>=70 && avg<=80)
+               display "grade 'C'"
+       else if(per>=60 && avg<=70)
+            display " grade 'D'"
+       else if(per>=40 && avg<=60)
+            display "garde 'E' "
+       else 
+            display " grade 'F'"
+
+stop
+
+       

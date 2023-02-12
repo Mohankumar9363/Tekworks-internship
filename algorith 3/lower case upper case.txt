@@ -1,0 +1,8 @@
+start
+step1: reead char
+step2: if(char>='a'&& char<='z')
+           display" char is lower case"
+       else if(char<='A' && char>='Z')
+                display"char is upper case"
+            
+Stop

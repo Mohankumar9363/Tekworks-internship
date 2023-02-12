@@ -1,0 +1,10 @@
+start
+step1: read n;
+step2: if(n>='A' && n<='Z')       
+               display " ch is alphabet"
+       else if("n>=0 && n<=9)
+             display " ch is a digit "
+         else
+              display " ch is special character"
+       
+stop

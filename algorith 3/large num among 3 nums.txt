@@ -1,0 +1,11 @@
+start
+step1: read n1,n2,n3
+step2: large=n1
+step3:if(n2>large)
+           large=n2;
+      else if (n3>large)
+            large=n3;
+step4: display large
+stop
+
+         

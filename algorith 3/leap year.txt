@@ -1,0 +1,7 @@
+start
+step1: read n
+step2: if(year%4=0 or year%100!=0 or year%400=0)
+          display " leap year"
+       else 
+          display " not a leap year"
+stop

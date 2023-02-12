@@ -1,0 +1,19 @@
+start
+srep1: read  week_num
+step2: switch (week_num)
+            case 1;
+                   display " sunday"
+            case 2;
+                    display " monday"
+            case 3;
+                    display " tuesday"
+            case4;
+                  display " wednasday"
+            case 5;
+                display" thursday"
+            case 6;
+                 display " friday"
+            case 7;
+                   display " saturday"
+          break;
+stop

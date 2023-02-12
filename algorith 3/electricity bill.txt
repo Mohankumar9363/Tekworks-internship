@@ -1,0 +1,14 @@
+start
+step1: read unit
+step2: if(unit<=50)
+            amount= unit*0.5 ;
+       else if (unit<=150 && unit>50)
+            amount=unit*0.75
+       else if ( unit <=250 && unit>150)
+             amount=unit*1.20
+       else
+              amount=unit*1.50
+ step3:surcharge = amount*0.20
+ step4:total amouunt= amount+surcharge
+ step5:display  total amount
+stop

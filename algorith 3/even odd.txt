@@ -1,0 +1,7 @@
+start
+step1: read  n
+step2: if(n%2==0)
+               display " even number"
+        else
+              display " odd number"
+stop 
