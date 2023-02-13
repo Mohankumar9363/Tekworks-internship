@@ -14,11 +14,11 @@ step2: if(sl<=10000)
            grs= sl+da+hra
            display  grs
            }
-       else if(sal>20000)
+       else if(sl>20000)
           {
-            da=sal*30/100;
-            hra=sal*95/100;
-            gross=sal+da+hra
+            da=sl*30/100;
+            hra=sl*95/100;
+            grs=sl+da+hra
             display  grs
            }
 stop
